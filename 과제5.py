@@ -65,4 +65,4 @@ real_out_image=color_image_processing(out_image,ch)
 
 cv2.imshow('Result Image', real_out_image)
 cv2.imwrite('dgu_night_equalization.png', real_out_image)  # save result img
-cv2.waitKey()
+#cv2.waitKey()
